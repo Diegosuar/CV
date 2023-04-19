@@ -12,3 +12,83 @@ body{
 	border: 1px solid black;
 	color: black;
 }
+
+div.cabecera{
+	margin: 0px;
+	background-color: white;
+}
+
+div.cabecera > div{
+   display:inline-block;
+   margin: 0px;
+   width: 694px;
+   height: 500;
+}
+div.cabecera hr{
+	background-color: white;
+	height: 1px;
+}
+div.cabecera figure{
+	display: inline-block;
+	margin:0px;
+	padding: 0px;
+	text-align: center;
+	width: 300px;
+}
+header > h1,  header > h2{
+    color: black;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  
+  main{
+    display: inline-block;
+    margin: 0px;
+    background-color: white;
+    width: 692px;
+  }
+
+  main > article > h1{
+    color: #8F754F;
+    padding: 0px 20px;
+    margin: 0px 10px;
+  }
+
+  article.Perfil> p{
+    color: black;
+    text-align: justify;
+    padding: 0px 20px;
+  }
+
+  hgroup > h1,  hgroup > h2{
+    color: black;
+    font-size: 15px;
+    margin: 5px;
+    padding: 0px 10px;
+  }
+
+  hgroup > h2{
+    font-weight: normal;
+  }
+
+  main ul{
+    margin: 5px;
+  }
+
+  article.Formación > h1{
+    font-size: 15px;
+    padding: 0px 30px;
+    margin: 5px;
+  } 
+
+  article.Formación> p{
+    padding: 0px 30px;
+    margin: 5px 5px;
+  } 
+
+  aside{
+    display: inline-block;
+    margin: 0px;
+    width: 300px;
+  }
