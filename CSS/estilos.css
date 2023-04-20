@@ -37,3 +37,8 @@ body{
     text-align: justify;
     padding: 0px 20px;
   }
+article.perfil>p{
+	color:black;
+	text-align: justify;
+	padding: 0px 20px;
+}
