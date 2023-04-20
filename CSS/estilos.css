@@ -13,3 +13,27 @@ body{
 	color: black;
 }
 
+.header{
+	display: flex;
+}
+.header{
+	margin: 0px;
+	background-color: white;
+}
+.header>div{
+	display: inline-block;
+    margin: 0px;
+    width: 300px;
+    height: 0 px;
+  }
+  main > article > h1{
+    color:#8F754F;
+    padding: 0px 20px;
+    margin: 0px 10px;
+  }
+
+  article.perfil > p{
+    color: black;
+    text-align: justify;
+    padding: 0px 20px;
+  }
