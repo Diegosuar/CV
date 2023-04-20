@@ -12,33 +12,9 @@ body {
     border: 1px solid black;
     color : black ;
   }
-  div.cabecera{
-    margin: 0px;
-    background-color:#2878AB
+  .header{
+	display: flex;
   }
+  
 
-  div.cabecera > div{
-    display: inline-block;
-    margin: 0px;
-    width: 694px;
-    height: 500 px;
-  }
-
-  div.cabecera hr{
-    background-color: black;
-    height: 1px;
-  }
-
-  div.cabecera figure{
-    display: inline-block;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    width: 300px;
-  }
-
-  header > h1,h2{
-    color: black;
-    padding: 10px;
-    margin: 5px;
-  }
+  
