@@ -1,14 +1,21 @@
 
 
+
 body {
     margin: 0 auto;
     max-width: 1000px;
     font-family: "Helvetica", "Arial", sans-serif;
     line-height: 1.5;
     padding: 10px 20px;
-    border: 1px solid black;
+    border: 10px solid black;
     color : black ;
-  }
+	padding: 180px;
+	padding-left: 30px;
+	padding-top: 10px;
+    padding-right: 10px;
+	
+
+	}
 .header{
 	display: flex;
   }
@@ -56,3 +63,19 @@ body {
 	background-color: white;
 	float: right;
   }
+  main > article > h1{
+    color:#8F754F;
+    padding: 0px 20px;
+    margin: 0px 10px;
+  }
+
+  article.perfil > p{
+    color: black;
+    text-align: justify;
+    padding: 0px 20px;
+  }
+article.perfil>p{
+	color:black;
+	text-align: justify;
+	padding: 0px 20px;
+}
