@@ -12,6 +12,28 @@ body {
     border: 1px solid black;
     color : black ;
   }
+  
+  div.cabecera > div{
+    display: inline-block;
+    margin: 0px;
+    width: 694px;
+    height: 500 px;
+  }
+
+  div.cabecera figure{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 300px;
+  }
+
+  header > h1{
+    color: black;
+    padding: 10px;
+    margin: 5px;
+  }
+
   main{
     display: inline-block;
     margin: 0px;
@@ -25,17 +47,10 @@ body {
     margin: 0px 10px;
   }
 
-  article.sumary > p{
+  article.perfil > p{
     color: black;
     text-align: justify;
     padding: 0px 20px;
-  }
-
-  hgroup > h1,  hgroup > h2{
-    color: black;
-    font-size: 15px;
-    margin: 5px;
-    padding: 0px 10px;
   }
 
   hgroup > h2{
