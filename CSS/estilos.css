@@ -12,6 +12,9 @@ body {
     border: 1px solid black;
     color : black ;
   }
+.header{
+	display: flex;
+}  
   
   div.cabecera > div{
     display: inline-block;
