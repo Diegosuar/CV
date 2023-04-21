@@ -6,10 +6,10 @@ body {
     padding: 10px 20px;
     border: 10px solid black;
     color : black ;
-	padding: 180px;
-	padding-left: 30px;
+	padding: 230px;
+	padding-left: 20px;
 	padding-top: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
 	}
 .header{
 	display: flex;
@@ -70,10 +70,11 @@ figcaption{
 	height: 300px;
 	background-color: white;
 	float: right;
+	padding-left: 50px;
   }
   main > article > h1{
     color:#8F754F;
-    padding: 0px 20px;
+    padding: 0px 10px;
     margin: 0px 10px;
   }
 
