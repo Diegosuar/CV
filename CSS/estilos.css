@@ -18,17 +18,17 @@ body {
 	display: flex;
 	text-align: center;
 	background-image: ('C:\Users\PERSONAL\Documents\CV\YO.jpeg');
-    background-color: black;
+   
 
   }
 .header h1{
-	color: white;
+	color: black;
 	padding-left: 190px;
 	padding-top: 30px;
 	
 }
 .header h2{
-	color: white;
+	color: black;
 	padding-left: 200px;
 	text-align: center;
 	
@@ -68,28 +68,7 @@ figcaption{
   aside>article>p{
 	color: white;
   }
-  main{
-	width: 650px;
-	height: 300px;
-	background-color: white;
-	float: right;
-  }
-  main > article > h1{
-    color:#8F754F;
-    padding: 0px 20px;
-    margin: 0px 10px;
-  }
 
-  article.perfil > p{
-    color: black;
-    text-align: justify;
-    padding: 0px 20px;
-  }
-article.perfil>p{
-	color:black;
-	text-align: justify;
-	padding: 0px 20px;
-}
 .header img{
 	margin-left: 40px;
 	margin-top: 40px;
