@@ -16,11 +16,6 @@ body {
 	padding-top: 10px;
     padding-right: 1px;
 	}
-
-.header{
-	display: flex;
-}
-
   main{
 	width: 650px;
 	height: 300px;
