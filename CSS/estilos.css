@@ -17,25 +17,7 @@ body {
 	padding-top: 10px;
     padding-right: 10px;
 	}
-.header{
-	display: flex;
-	text-align: center;
-	background-image: ('C:\Users\PERSONAL\Documents\CV\YO.jpeg');
-   
 
-  }
-.header h1{
-	color: black;
-	padding-left: 190px;
-	padding-top: 30px;
-	
-}
-.header h2{
-	color: black;
-	padding-left: 200px;
-	text-align: center;
-	
-}
 figcaption{
 	color: white;
 }
@@ -72,8 +54,5 @@ figcaption{
 	color: white;
   }
 
-.header img{
-	margin-left: 40px;
-	margin-top: 40px;
-}
+
   
