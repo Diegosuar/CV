@@ -1,7 +1,7 @@
 
 *{
 	border:1px dotted tomato;
-	
+
 }
 body {
     margin: 0 auto;
@@ -11,25 +11,16 @@ body {
     padding: 10px 20px;
     border: 10px solid black;
     color : black ;
-	padding: 230px;
-	padding-left: 10px;
+	padding: 260px;
+	padding-left: 1px;
 	padding-top: 10px;
-    padding-right: 20px;
+    padding-right: 1px;
 	}
 
 .header{
 	display: flex;
 }
-.header{
-	margin: 0px;
-	background-color: white;
-}
-.header>div{
-	display: inline-block;
-    margin: 0px;
-    width: 300px;
-    height: 0 px;
-  }
+
   main{
 	width: 650px;
 	height: 300px;
@@ -42,7 +33,6 @@ body {
     padding: 0px 10px;
     margin: 0px 10px;
   }
-
   article.perfil > p{
     color: black;
     text-align: justify;
