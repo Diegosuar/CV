@@ -5,53 +5,52 @@
   font-style: normal;
 }
 body {
-    margin: 0 auto;
+    margin: auto;
     max-width: 1000px;
     font-family: 'Phoenica Std Regular', sans-serif;
     line-height: 1.5;
     padding: 10px 20px;
-    border: 10px solid black;
-    color : black ;
-	padding: 230px;
-	padding-left: 20px;
-	padding-top: 10px;
-    padding-right: 20px;
+    border: 8px solid black;
+	  padding: 230px;
+	  padding-left: 10px;
+	  padding-top: 10px;
+    padding-right: 10px;
 	}
 .header{
 	display: flex;
 	text-align: center;
 	background-image: ('C:\Users\PERSONAL\Documents\CV\YO.jpeg');
-    background-color: grey;
+  background-color: black;
   }
 .header h1{
+  display: flex;
+  justify-content: center;
 	color: white;
 	padding-left: 190px;
 	padding-top: 30px;
-	
 }
 .header h2{
+  display: flex;
+  justify-content: center;
 	color: white;
 	padding-left: 200px;
-	text-align: center;
-	
 }
 figcaption{
 	color: white;
 }
   aside{
-    display: inline-block;
-    margin: 0px;
-    width: 300px;
+    flex-wrap:wrap ;
+    width: 27%;
     background-color: black;
-	
+    flex-wrap: wrap;
   }
   aside *{
-    padding: 0px 10px;
+    padding: 5px 12px;
   }
   aside > article > h1{
     color: #8F754F;
     font-size: 20px;
-    margin: 5px 0px;
+    margin: 4px 0px;
   }
   aside > article > section > h1{
     font-size: 15px;
@@ -71,11 +70,11 @@ figcaption{
 	color: white;
   }
   main{
-	width: 650px;
+	width: 600px;
 	height: 300px;
 	background-color: white;
-	float: right;
 	padding-left: 50px;
+
   }
   main > article > h1{
     color:#8F754F;
