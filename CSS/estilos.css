@@ -6,15 +6,12 @@
 }
 body {
     margin: auto;
-    max-width: 1000px;
+    max-width: 960px;
     font-family: 'Phoenica Std Regular', sans-serif;
     line-height: 1.5;
-    padding: 10px 20px;
-    border: 8px solid black;
-	  padding: 230px;
-	  padding-left: 10px;
-	  padding-top: 10px;
-    padding-right: 10px;
+    padding: 8px 8px;
+    border: 6px solid black;
+	  padding-top: 8px;
 	}
 .header{
 	display: flex;
@@ -26,14 +23,14 @@ body {
   display: flex;
   justify-content: center;
 	color: white;
-	padding-left: 190px;
-	padding-top: 30px;
+	padding-left: 130px;
+	padding-top: 50px;
 }
 .header h2{
   display: flex;
   justify-content: center;
 	color: white;
-	padding-left: 200px;
+	padding-left: 100px;
 }
 figcaption{
 	color: white;
@@ -70,29 +67,42 @@ figcaption{
 	color: white;
   }
   main{
-	width: 600px;
-	height: 300px;
+	width: 60%;
 	background-color: white;
-	padding-left: 50px;
+	flex-direction: row;
+  margin-left: 30px;
 
   }
   main > article > h1{
     color:#8F754F;
     padding: 0px 10px;
-    margin: 0px 10px;
+    margin: 30px -10px;
   }
 
   article.perfil > p{
     color: black;
     text-align: justify;
-    padding: 0px 20px;
+    padding: 20px 30px;
   }
 article.perfil>p{
 	color:black;
 	text-align: justify;
-	padding: 0px 20px;
+	padding: 0px 500px;
 }
 .header img{
 	margin-left: 40px;
 	margin-top: 40px;
 }
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: none;
+    font-size: 0.9rem;
+  }
+
+  }
